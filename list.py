@@ -12,3 +12,7 @@ else:
 
 test_data = (12,13,14)
 print(type(test_data))
+
+arr = ['hello','world','guvi']
+for i in arr:
+    print(i)
