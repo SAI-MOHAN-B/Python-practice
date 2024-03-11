@@ -14,3 +14,4 @@ print(our_strings.startswith("hello"))
 name = "guvi"
 age = "geek iitm researchh park"
 print("Hello {} i'm from {}".format(name,age))
+print(f"hello i'm {name} and my {age} is 40")
