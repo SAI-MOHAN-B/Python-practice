@@ -1,4 +1,5 @@
-from collections import Counter,namedtuple
+from collections import Counter, namedtuple, OrderedDict
+
 a = [12, 13, 13, 12, 14]
 my_counter = Counter(a)
 print(my_counter)
@@ -10,5 +11,11 @@ print("Collections")
 # Named Tuple
 Student = namedtuple('Student',['name','age','DOB'])
 print(Student)
-S = Student('mohan','23','1995')
+S = Student('mohan', '23', '1995')
 print(S)
+
+#  Ordered Dict
+ord_dict = OrderedDict()
+ord_dict['a'] = 2
+ord_dict['b'] = 3
+print(ord_dict)
